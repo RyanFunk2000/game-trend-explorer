@@ -1,0 +1,78 @@
+@model game_trends_explorer.Models.Game
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Game</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="date" class="control-label"></label>
+                <input asp-for="date" class="form-control" />
+                <span asp-validation-for="date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="platform" class="control-label"></label>
+                <input asp-for="platform" class="form-control" />
+                <span asp-validation-for="platform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="publisher" class="control-label"></label>
+                <input asp-for="publisher" class="form-control" />
+                <span asp-validation-for="publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="developer" class="control-label"></label>
+                <input asp-for="developer" class="form-control" />
+                <span asp-validation-for="developer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="shipped" class="control-label"></label>
+                <input asp-for="shipped" class="form-control" />
+                <span asp-validation-for="shipped" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="total" class="control-label"></label>
+                <input asp-for="total" class="form-control" />
+                <span asp-validation-for="total" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="america" class="control-label"></label>
+                <input asp-for="america" class="form-control" />
+                <span asp-validation-for="america" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="europe" class="control-label"></label>
+                <input asp-for="europe" class="form-control" />
+                <span asp-validation-for="europe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="japan" class="control-label"></label>
+                <input asp-for="japan" class="form-control" />
+                <span asp-validation-for="japan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
