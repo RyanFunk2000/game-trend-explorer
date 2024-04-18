@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using GameTrends.Data;
+using game_trends_explorer.Data;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<GameTrendsContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("GameTrendsContext") ?? throw new InvalidOperationException("Connection string 'GameTrendsContext' not found.")));
+builder.Services.AddDbContext<GameTrendContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("GameTrendContext") ?? throw new InvalidOperationException("Connection string 'GameTrendContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

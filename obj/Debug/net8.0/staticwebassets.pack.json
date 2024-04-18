@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\analysis.png",
+      "PackagePath": "staticwebassets\\images\\analysis.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\graph.png",
+      "PackagePath": "staticwebassets\\images\\graph.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\table.png",
+      "PackagePath": "staticwebassets\\images\\table.png"
+    },
+    {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

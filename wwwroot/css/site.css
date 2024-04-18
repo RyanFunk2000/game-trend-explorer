@@ -20,3 +20,118 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+header * {
+  background-color: #9747FF;
+  font-weight: bold;
+}
+
+.site-logo {
+  float: right;
+}
+
+.site-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.box {
+  color: black;
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-right: 1px solid black;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.sidebar a:hover {
+  filter: none;
+}
+
+.navoption:hover {
+  background-color: rgba(151, 71, 255, 0.4);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar .closebtn:hover {
+  color: #9747FF;
+}
+
+.icon {
+  width: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.openbtn:hover {
+  background-color: rgba(151, 71, 255, 0.4);
+}
+
+#content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  .icon {
+    width: 36px;
+  }
+}
+
+.table {
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}

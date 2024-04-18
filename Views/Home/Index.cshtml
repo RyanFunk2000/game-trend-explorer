@@ -2,7 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<head>
+    <style>
+        h3 {
+            color: #9747FF;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        a  {
+        text-decoration: none;
+        color: inherit;
+        outline: 0;
+        }
+    </style>
+</head>
+
+<div>
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Choose the tool you want to use for observing video game sales data.</p>
 </div>
+
+<a class="box" asp-area="" asp-controller="Table" asp-action="Index">
+    <h3>Table View</h3>
+    <p>Filter and read game sales data with tables. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <img src='@Url.Content("~/images/table.png")' alt="Table logo">
+</a>
+<a class="box" asp-area="" asp-controller="Graphic" asp-action="Index">
+    <h3>Graphic View</h3>
+    <p>Filter, sort, and view game sales data with data visualizations like charts, plots, or graphs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+    <img src='@Url.Content("~/images/graph.png")' alt="Graphic logo">
+</a>
+<a class="box" asp-area="" asp-controller="Analysis" asp-action="Index">
+    <h3>Data Analysis</h3>
+    <p>Use the power of machine learning to generate predictions off of games sales data. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+    <img src='@Url.Content("~/images/analysis.png")' alt="Analysis logo">
+</a>

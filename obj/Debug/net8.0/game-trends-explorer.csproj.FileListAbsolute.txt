@@ -275,3 +275,10 @@ C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\obj\Debug\net8.0\refint\game
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\obj\Debug\net8.0\game-trends-explorer.pdb
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\obj\Debug\net8.0\game-trends-explorer.genruntimeconfig.cache
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\obj\Debug\net8.0\ref\game-trends-explorer.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\obj\Debug\net8.0\game-trends-explorer.sourcelink.json
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

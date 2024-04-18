@@ -28,26 +28,26 @@ public class Game
 
     [Display(Name = "Total Shipped")]
     [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
-    [Column(TypeName = "decimal(5, 2)")]
+    //[Column(TypeName = "decimal(5, 2)")]
     public double? shipped { get; set; }
 
     [Display(Name = "Total Sold")]
     [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
-    [Column(TypeName = "decimal(5, 2)")]
+    //[Column(TypeName = "decimal(5, 2)")]
     public double? total { get; set; }
 
     [Display(Name = "Sold - America")]
     [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
-    [Column(TypeName = "decimal(5, 2)")]
+    //[Column(TypeName = "decimal(5, 2)")]
     public double? america { get; set; }
 
     [Display(Name = "Sold - Europe")]
     [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
-    [Column(TypeName = "decimal(5, 2)")]
+    //[Column(TypeName = "decimal(5, 2)")]
     public double? europe { get; set; }
 
     [Display(Name = "Sold - Japan")]
     [Range(1, int.MaxValue, ErrorMessage = "Only positive number allowed")]
-    [Column(TypeName = "decimal(5, 2)")]
+    //[Column(TypeName = "decimal(5, 2)")]
     public double? japan { get; set; }
 }

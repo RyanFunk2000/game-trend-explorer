@@ -1,0 +1,154 @@
+@model game_trends_explorer.Models.GameClassViewModel
+
+@{
+    ViewData["Title"] = "Table View";
+}
+
+<h1>Table View</h1>
+
+<p>
+    Filter Options
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Name: <input type="text" asp-for="nameSearch" />
+            Platform: <select asp-for="GamePlatform" asp-items="Model.Platforms">
+                <option value=""></option>
+            </select>
+            Publisher: <select asp-for="GamePublisher" asp-items="Model.Publishers">
+                <option value=""></option>
+            </select>
+            Developer: <input type="text" asp-for="devSearch" />
+            <input type="submit" value="Filter" class="btn-default" /> |
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Name</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Release Date</a>
+            </th>
+            <th>
+                Platform
+            </th>
+            <th>
+                Publisher
+            </th>
+            <th>
+                Developer
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ShippedSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Shipped</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["TotalSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Total</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["AmericaSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                America</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["EuropeSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Europe</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["JapanSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                Japan</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Games!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.platform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.publisher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.developer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.shipped)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.america)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.europe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.japan)
+            </td>
+            <td>
+                @* <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                @* <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.Games.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.Games.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.Games.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn @prevDisabled">
+    Previous
+</a>
+<a asp-action="Index"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.Games.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn @nextDisabled">
+    Next
+</a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#GamePlatform').select2();
+            $('#GamePublisher').select2();
+        });
+    </script>
+}
