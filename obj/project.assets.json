@@ -46,6 +46,59 @@
           }
         }
       },
+      "ChartJS/23.1.9": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "3.5.1",
+          "jquery-globalize": "1.1.1"
+        }
+      },
+      "ChartJs.Blazor/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/ChartJs.Blazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ChartJs.Blazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.1/Properties/launchSettings.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/ChartJs.Blazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/ChartJs.Blazor.props": {}
+        }
+      },
+      "ChartJSCore/3.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/ChartJSCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ChartJSCore.dll": {}
+        }
+      },
+      "cldrjs/0.4.4": {
+        "type": "package"
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -640,6 +693,105 @@
           }
         }
       },
+      "jQuery/3.5.1": {
+        "type": "package"
+      },
+      "jquery-globalize/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "cldrjs": "0.4.4"
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Options": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.0",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.0",
+          "Microsoft.JSInterop": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0",
+          "Microsoft.AspNetCore.Components.Forms": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.0",
+          "Microsoft.JSInterop": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
         "type": "package",
         "compile": {
@@ -1170,7 +1322,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -1752,6 +1904,19 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.JSInterop/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {
             "related": ".xml"
           }
         }
@@ -3065,6 +3230,100 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "ChartJS/23.1.9": {
+      "sha512": "Ynku3ezeHnaLD+JyTHByKGUzMBtSESn2jrlH9js3AwZmO8Su4s9oK2u0x4plziTsiRa3PUD37QZbhxdg5irUIg==",
+      "type": "package",
+      "path": "chartjs/23.1.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "chartjs.23.1.9.nupkg.sha512",
+        "chartjs.nuspec",
+        "content/net/Scripts/dx.viz.debug.js",
+        "content/net/Scripts/dx.viz.js",
+        "content/net/Scripts/vectormap-data/africa.js",
+        "content/net/Scripts/vectormap-data/canada.js",
+        "content/net/Scripts/vectormap-data/eurasia.js",
+        "content/net/Scripts/vectormap-data/europe.js",
+        "content/net/Scripts/vectormap-data/usa.js",
+        "content/net/Scripts/vectormap-data/world.js",
+        "content/net/Scripts/vectormap-utils/dx.vectormaputils.debug.js",
+        "content/net/Scripts/vectormap-utils/dx.vectormaputils.js",
+        "content/net/Scripts/vectormap-utils/dx.vectormaputils.node.js",
+        "content/netcore/js/dx.viz.debug.js",
+        "content/netcore/js/dx.viz.js",
+        "content/netcore/js/vectormap-data/africa.js",
+        "content/netcore/js/vectormap-data/canada.js",
+        "content/netcore/js/vectormap-data/eurasia.js",
+        "content/netcore/js/vectormap-data/europe.js",
+        "content/netcore/js/vectormap-data/usa.js",
+        "content/netcore/js/vectormap-data/world.js",
+        "content/netcore/js/vectormap-utils/dx.vectormaputils.debug.js",
+        "content/netcore/js/vectormap-utils/dx.vectormaputils.js",
+        "content/netcore/js/vectormap-utils/dx.vectormaputils.node.js",
+        "jslogo.png",
+        "tools/install.ps1"
+      ]
+    },
+    "ChartJs.Blazor/1.1.0": {
+      "sha512": "MUGYzS5FSx9r17sPVRlREPWU+1mFtggFaQtGKifQg30I48tx3OEDH3JZd07r+jKwtpN/h89HVUYy3IT2FS8ZEw==",
+      "type": "package",
+      "path": "chartjs.blazor/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ChartJs.Blazor.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/ChartJs.Blazor.props",
+        "buildTransitive/ChartJs.Blazor.props",
+        "chartjs.blazor.1.1.0.nupkg.sha512",
+        "chartjs.blazor.nuspec",
+        "content/Properties/launchSettings.json",
+        "contentFiles/any/netstandard2.1/Properties/launchSettings.json",
+        "lib/netstandard2.1/ChartJs.Blazor.dll",
+        "lib/netstandard2.1/ChartJs.Blazor.xml",
+        "staticwebassets/Chart.min.js",
+        "staticwebassets/ChartJSBlazor.css",
+        "staticwebassets/ChartJsBlazorInterop.js",
+        "staticwebassets/ChartJsBlazorInterop.js.map",
+        "staticwebassets/moment-with-locales.min.js",
+        "staticwebassets/ts/ChartJsBlazorInterop.ts",
+        "staticwebassets/ts/ChartJsInterop.ts",
+        "staticwebassets/ts/MomentJsInterop.ts",
+        "staticwebassets/ts/types/Chart.min.d.ts",
+        "staticwebassets/ts/types/moment.d.ts",
+        "staticwebassets/tsconfig.json"
+      ]
+    },
+    "ChartJSCore/3.10.1": {
+      "sha512": "X4qlrFhb3p3UC9eQsghgG7NN0lqjt0r8av0jhNFBELbIcO6jTHqWEza3eo8YT6FFvooSMCMMAoWSdqJJKG4IJw==",
+      "type": "package",
+      "path": "chartjscore/3.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chartjscore.3.10.1.nupkg.sha512",
+        "chartjscore.nuspec",
+        "lib/netstandard2.0/ChartJSCore.dll"
+      ]
+    },
+    "cldrjs/0.4.4": {
+      "sha512": "QTJ2r9FpA1XOFPRguhHAFjJZZJVil5TFOUCTLpN02BjQtgXgVDpt5VFyxQp/uNwEh0InNWLdIugl2Ls1IBqfXg==",
+      "type": "package",
+      "path": "cldrjs/0.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cldrjs.0.4.4.nupkg.sha512",
+        "cldrjs.nuspec",
+        "content/Scripts/cldr.js",
+        "content/Scripts/cldr/event.js",
+        "content/Scripts/cldr/supplemental.js",
+        "content/Scripts/cldr/unresolved.js"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -3809,6 +4068,144 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "jQuery/3.5.1": {
+      "sha512": "ji6sm/AI0vjASXAA/AG9Yf5ypALAqIDXFFKPHMAnFL8kp3xqULIWhACjg/OXZP88C56frYlIej2nrdBnhTMYQQ==",
+      "type": "package",
+      "path": "jquery/3.5.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.5.1-vsdoc.js",
+        "Content/Scripts/jquery-3.5.1.js",
+        "Content/Scripts/jquery-3.5.1.min.js",
+        "Content/Scripts/jquery-3.5.1.min.map",
+        "Content/Scripts/jquery-3.5.1.slim.js",
+        "Content/Scripts/jquery-3.5.1.slim.min.js",
+        "Content/Scripts/jquery-3.5.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.5.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.5.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jquery-globalize/1.1.1": {
+      "sha512": "tkRqYLIONjwamztg1rG+xyh2asA0ARLOPorfF3N9JW8fWr+srtPAeUNLFHF6NZAQ7Avnkzgi2OC505lK5avFag==",
+      "type": "package",
+      "path": "jquery-globalize/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/globalize.js",
+        "content/Scripts/globalize/currency.js",
+        "content/Scripts/globalize/date.js",
+        "content/Scripts/globalize/message.js",
+        "content/Scripts/globalize/number.js",
+        "content/Scripts/globalize/plural.js",
+        "content/Scripts/globalize/relative-time.js",
+        "content/Scripts/globalize/unit.js",
+        "jquery-globalize.1.1.1.nupkg.sha512",
+        "jquery-globalize.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/3.1.0": {
+      "sha512": "R/0qFIu1m7jJFD0OuLIjLXC0uYQxFwwW7ylVvGgUPUpOJJK0bKJjfrDu20kY1Yw0hy9ejZYZEdUZHRm3ei0+3w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/3.1.0": {
+      "sha512": "YIcE9FGLLMt8vnjaQEf6PhI4ikxibEv6t06SQTb9BAd//UxrOklqDhCzWldF6zXxh3+VnyVGFNOOlz9Tg8vQ8A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.0": {
+      "sha512": "DWvG559bbeNMkesZ/sYZqEH9iTx4N7WbdyChf2PS7ouZBcWjRSt/V+sKuofrTpb0c8STe14+U3kMKO5FtwaT/g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.props",
+        "microsoft.aspnetcore.components.analyzers.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/3.1.0": {
+      "sha512": "BkW3QVWzpTlqJWbBasahUCrebUQraIZKYS3sK1nTQOw1xNFjfBmmiLipT/9jinnQh3ogatAtfhPxNr6DMrheQg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/3.1.0": {
+      "sha512": "wuoKzEIt/4nGU5Adohw93oVM/i2Bszcumm4RQ4XY8ruZCqtq0LmeTE1y1bqRtiRjNgvaUe6cH/ogh2pZ1LQovA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.0": {
+      "sha512": "ZiNCjglz4kR2OGElM2u/S6cS1ArAxE6lP4BeniCZcr6l+ACzslKgcPGOTY8/Glppx6CDzMKfmyqV+VbFh5CyjQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
@@ -4971,10 +5368,10 @@
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4987,6 +5384,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -4996,7 +5394,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -5844,6 +6242,22 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
         "microsoft.identitymodel.tokens.6.24.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.JSInterop/3.1.0": {
+      "sha512": "A6w985fb6RyL4x69TILW3sF2DcAufUPDOwN1LpdRZ3sZcpvb2ZnM2TrarleDhtqfS5g0Ot+2AG5AM9svH9Cm8Q==",
+      "type": "package",
+      "path": "microsoft.jsinterop/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.dll",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.xml",
+        "lib/netstandard2.0/Microsoft.JSInterop.dll",
+        "lib/netstandard2.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.3.1.0.nupkg.sha512",
+        "microsoft.jsinterop.nuspec",
+        "packageIcon.png"
       ]
     },
     "Microsoft.NET.StringTools/17.7.2": {
@@ -8360,12 +8774,15 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ChartJSCore >= 3.10.1",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SQLite >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0",
-      "System.Data.SqlClient >= 4.8.6"
+      "System.Data.SqlClient >= 4.8.6",
+      "chartjs >= 23.1.9",
+      "chartjs.blazor >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -8405,6 +8822,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ChartJSCore": {
+            "target": "Package",
+            "version": "[3.10.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -8432,6 +8853,14 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.6, )"
+          },
+          "chartjs": {
+            "target": "Package",
+            "version": "[23.1.9, )"
+          },
+          "chartjs.blazor": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [

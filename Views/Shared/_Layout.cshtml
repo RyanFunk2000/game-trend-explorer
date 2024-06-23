@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/game_trends_explorer.styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("Head", required: false)
 </head>
 <body>
     <header>
@@ -18,13 +19,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="site-logo">
-                    <img src='@Url.Content("~/images/table.png")' alt="Table logo">
+                    <img src='@Url.Content("~/images/logo.png")' alt="Table logo">
                 </div>
             </div>
         </nav>
     </header>
 
-    @if (ViewContext.RouteData.Values["Controller"]?.ToString() != "Home"|| ViewContext.RouteData.Values["Action"]?.ToString() != "Index")
+    @if (ViewContext.RouteData.Values["Controller"]?.ToString() != "Home")
     {
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="hide()">◄</a>
@@ -33,9 +34,6 @@
             </a>
             <a class="navoption" asp-area="" asp-controller="Graphic" asp-action="Index">
                 <img class="icon" src='@Url.Content("~/images/graph.png")' alt="Graphic logo">   Graphic View
-            </a>
-            <a class="navoption" asp-area="" asp-controller="Analysis" asp-action="Index">
-                <img class="icon" src='@Url.Content("~/images/analysis.png")' alt="Analysis logo">   Data Analysis
             </a>
         </div>
         <div id="content">

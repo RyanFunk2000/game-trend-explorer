@@ -26,10 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ryan\Documents\GITHUB\game-trends-explorer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Analysis/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hbHlzaXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Graphic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhcGhpY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

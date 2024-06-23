@@ -1,3 +1,5 @@
+@import "navigation.css";
+
 html {
   font-size: 14px;
 }
@@ -38,7 +40,7 @@ header * {
 .box {
   color: black;
   display: inline-block;
-  width: 30%;
+  width: 45%;
   padding: 20px;
   margin: 10px;
   border: 1px solid black;
@@ -114,6 +116,46 @@ header * {
 #content {
   transition: margin-left 0.5s;
   padding: 16px;
+}
+
+#chartDisplay {
+  width: 100%;
+}
+
+.chart-body {
+  width: 100%;
+}
+
+.chartType {
+  display: none;
+}
+
+.tablink {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: 1px solid #ccc;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  display: block;
+}
+
+.tab {
+  color: #000 !important;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #f1f1f1 !important;
+  justify-content: center;
+}
+
+.tab div {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 16px;
+}
+
+.tab section {
+  padding: 8px 16px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

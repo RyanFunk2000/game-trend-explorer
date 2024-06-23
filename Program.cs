@@ -1,9 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using game_trends_explorer.Data;
+using game_trends_explorer.Models;
 var builder = WebApplication.CreateBuilder(args);
+
+// Add configuration to read from environment variables
+var connectionString = builder.Configuration.GetValue<string>("GameTrendContext");
+
+// Read connection string from environment variable
 builder.Services.AddDbContext<GameTrendContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("GameTrendContext") ?? throw new InvalidOperationException("Connection string 'GameTrendContext' not found.")));
+    options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

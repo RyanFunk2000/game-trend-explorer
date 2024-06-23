@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace game_trends_explorer.Models;
 
-public class GameClassViewModel
+public class TableViewModel
 {
     public PaginatedList<Game>? Games { get; set; }
     public SelectList? Platforms { get; set; }

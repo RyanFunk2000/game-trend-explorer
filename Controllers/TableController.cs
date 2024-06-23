@@ -21,6 +21,7 @@ namespace game_trends_explorer.Controllers
 
         // GET: Table
         public async Task<IActionResult> Index(
+            string title,
             string sortOrder,
             string currentFilter,
             string gamePlatform,
@@ -135,7 +136,7 @@ namespace game_trends_explorer.Controllers
             }
 
             int pageSize = 100;
-            var gamePlatformVM = new GameClassViewModel
+            var gameVM = new TableViewModel
             {
                 Platforms = new SelectList(await platformQuery.Distinct().ToListAsync()),
                 Publishers = new SelectList(await publisherQuery.Distinct().ToListAsync()),
@@ -143,7 +144,7 @@ namespace game_trends_explorer.Controllers
             };
 
             
-            return View(gamePlatformVM);
+            return View(gameVM);
         }
 
         // GET: Table/Details/5

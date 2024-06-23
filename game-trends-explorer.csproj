@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="chartjs" Version="23.1.9" />
+    <PackageReference Include="chartjs.blazor" Version="1.1.0" />
+    <PackageReference Include="ChartJSCore" Version="3.10.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

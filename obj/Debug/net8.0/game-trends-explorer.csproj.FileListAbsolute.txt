@@ -282,3 +282,7 @@ C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\wi
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\ChartJs.Blazor.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\ChartJSCore.dll
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\chart.json
+C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\bin\Debug\net8.0\chart_truncated.json
