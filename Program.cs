@@ -5,7 +5,7 @@ using game_trends_explorer.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add configuration to read from environment variables
-var connectionString = builder.Configuration.GetConnectionString("GameTrendContext");
+var connectionString = builder.Configuration.GetValue<string>("GameTrendContext");
 
 // Read connection string from environment variable
 builder.Services.AddDbContext<GameTrendContext>(options =>
