@@ -176,4 +176,25 @@ header * {
   border: 1px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  transform: rotateX(180deg)
+}
+
+/*Mobile styles*/
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+
+  .w3-bar {
+    width: 80% !important;
+  }
+
+  .tablink {
+    border: none;
+    margin: 3px 3px;
+  }
+
+  .tab {
+    border: 1px solid #ccc;
+  }
 }

@@ -138,8 +138,8 @@ namespace game_trends_explorer.Controllers
             int pageSize = 100;
             var gameVM = new TableViewModel
             {
-                Platforms = new SelectList(await platformQuery.Distinct().ToListAsync()),
-                Publishers = new SelectList(await publisherQuery.Distinct().ToListAsync()),
+                Platforms = new SelectList(await platformQuery.Distinct().OrderBy(p => p).ToListAsync()),
+                Publishers = new SelectList(await publisherQuery.Distinct().OrderBy(p => p).ToListAsync()),
                 Games = await PaginatedList<Game>.CreateAsync(games.AsNoTracking(), pageNumber ?? 1, pageSize)
             };
 

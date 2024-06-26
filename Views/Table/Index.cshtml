@@ -27,96 +27,98 @@
     </div>
 </form>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Name</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Release Date</a>
-            </th>
-            <th>
-                Platform
-            </th>
-            <th>
-                Publisher
-            </th>
-            <th>
-                Developer
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["ShippedSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Shipped</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["TotalSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Total</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["AmericaSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                America</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["EuropeSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Europe</a>
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["JapanSortParm"]"
-                asp-route-currentFilter="@ViewData["CurrentFilter"]">
-                Japan</a>
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Games!) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.platform)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.publisher)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.developer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.shipped)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.total)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.america)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.europe)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.japan)
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div style="overflow-x:auto; transform:rotateX(180deg);">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Name</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Release Date</a>
+                </th>
+                <th>
+                    Platform
+                </th>
+                <th>
+                    Publisher
+                </th>
+                <th>
+                    Developer
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["ShippedSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Shipped</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["TotalSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Total</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["AmericaSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    America</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["EuropeSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Europe</a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["JapanSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Japan</a>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model.Games!) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.platform)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.publisher)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.developer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.shipped)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.america)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.europe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.japan)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>
 
 @{
     var prevDisabled = !Model.Games.HasPreviousPage ? "disabled" : "";
