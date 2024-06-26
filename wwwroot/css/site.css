@@ -130,6 +130,11 @@ header * {
   display: none;
 }
 
+.w3-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
 .tablink {
   padding: 8px 16px;
   float: left;
@@ -139,6 +144,14 @@ header * {
     border-bottom-style: none;
     border-bottom-color: currentcolor;
   display: block;
+}
+
+.w3-light-grey {
+  background-color: #f1f1f1 !important;
+}
+
+.w3-container {
+  padding: 0.01em 16px;
 }
 
 .tab {
