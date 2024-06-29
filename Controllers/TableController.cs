@@ -51,6 +51,9 @@ namespace game_trends_explorer.Controllers
             ViewData["ShippedSortParm"] = String.IsNullOrEmpty(sortOrder) ? "ship_desc" : "";
             ViewData["NameSortParm"] = sortOrder == "Name" ? "name_desc" : "Name";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewData["PlatformSortParm"] = sortOrder == "Platform" ? "plat_desc" : "Platform";
+            ViewData["PublisherSortParm"] = sortOrder == "Publisher" ? "pub_desc" : "Publisher";
+            ViewData["DevSortParm"] = sortOrder == "Developer" ? "dev_desc" : "Developer";
             ViewData["TotalSortParm"] = sortOrder == "Total" ? "total_desc" : "Total";
             ViewData["AmericaSortParm"] = sortOrder == "America" ? "am_desc" : "America";
             ViewData["EuropeSortParm"] = sortOrder == "Europe" ? "eu_desc" : "Europe";
@@ -112,6 +115,24 @@ namespace game_trends_explorer.Controllers
                     break;
                 case "name_desc":
                     games = games.OrderByDescending(g => g.name);
+                    break;
+                case "Platform":
+                    games = games.OrderBy(g => g.platform);
+                    break;
+                case "plat_desc":
+                    games = games.OrderByDescending(g => g.platform);
+                    break;
+                case "Publisher":
+                    games = games.OrderBy(g => g.publisher);
+                    break;
+                case "pub_desc":
+                    games = games.OrderByDescending(g => g.publisher);
+                    break;
+                case "Developer":
+                    games = games.OrderBy(g => g.developer);
+                    break;
+                case "dev_desc":
+                    games = games.OrderByDescending(g => g.developer);
                     break;
                 case "Total":
                     games = games.OrderBy(g => g.total);

@@ -60,13 +60,28 @@
                     Release Date</a>
                 </th>
                 <th>
-                    Platform
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["PlatformSortParm"]"
+                    asp-route-currentName="@ViewData["CurrentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
+                    Platform</a>
                 </th>
                 <th>
-                    Publisher
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["PublisherSortParm"]"
+                    asp-route-currentName="@ViewData["CurrentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
+                    Publisher</a>
                 </th>
                 <th>
-                    Developer
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DevSortParm"]"
+                    asp-route-currentName="@ViewData["CurrentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
+                    Developer</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["ShippedSortParm"]"
