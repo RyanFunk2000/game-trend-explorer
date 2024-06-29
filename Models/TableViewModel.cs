@@ -10,6 +10,6 @@ public class TableViewModel
     public string? GamePlatform { get; set; }
     public SelectList? Publishers { get; set; }
     public string? GamePublisher{ get; set; }
-    public string? nameSearch { get; set; }
-    public string? devSearch { get; set; }
+    public string? GameName { get; set; }
+    public string? DevName { get; set; }
 }

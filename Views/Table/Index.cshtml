@@ -11,19 +11,31 @@
 </p>
 
 <form asp-action="Index" method="get">
-    <div class="form-actions no-color">
-        <p>
-            Name: <input type="text" asp-for="nameSearch" />
-            Platform: <select asp-for="GamePlatform" asp-items="Model.Platforms">
-                <option value=""></option>
+    <div class="form-actions no-color tableNav">
+        <div>
+            <label>Name:</label>
+            <input type="text" asp-for="GameName" value="@ViewData["CurrentName"]"/>
+        </div>
+        <div>
+            <label>Platform:</label>
+            <select asp-for="GamePlatform" asp-items="Model.Platforms">
+                <option selected="selected">@ViewData["CurrentPlatform"]</option>
             </select>
-            Publisher: <select asp-for="GamePublisher" asp-items="Model.Publishers">
-                <option value=""></option>
+        </div>
+        <div>
+            <label>Publisher:</label>
+            <select asp-for="GamePublisher" asp-items="Model.Publishers" style="width:205px">
+                <option selected="selected">@ViewData["CurrentPublisher"]</option>
             </select>
-            Developer: <input type="text" asp-for="devSearch" />
-            <input type="submit" value="Filter" class="btn-default" /> |
-            <a asp-action="Index">Back to Full List</a>
-        </p>
+        </div>
+        <div>
+            <label>Developer:</label>
+            <input type="text" asp-for="DevName" value="@ViewData["CurrentDev"]"/>
+        </div>
+    </div>
+    <div class="tableNav">
+        <input type="submit" value="Filter" class="btn-default" />
+        <a asp-action="Index">Back to Full List</a>
     </div>
 </form>
 
@@ -33,12 +45,18 @@
             <tr>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["CurrentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Name</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["CurrentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Release Date</a>
                 </th>
                 <th>
@@ -52,27 +70,42 @@
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["ShippedSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["currentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Shipped</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["TotalSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["currentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Total</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["AmericaSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["currentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     America</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["EuropeSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["currentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Europe</a>
                 </th>
                 <th>
                     <a asp-action="Index" asp-route-sortOrder="@ViewData["JapanSortParm"]"
-                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    asp-route-currentName="@ViewData["currentName"]"
+                    asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+                    asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+                    asp-route-currentDev="@ViewData["CurrentDev"]">
                     Japan</a>
                 </th>
                 <th></th>
@@ -124,21 +157,41 @@
     var prevDisabled = !Model.Games.HasPreviousPage ? "disabled" : "";
     var nextDisabled = !Model.Games.HasNextPage ? "disabled" : "";
 }
+<div class="tableNav">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.Games.PageIndex - 1)"
+       asp-route-currentName="@ViewData["CurrentName"]"
+       asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+       asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+       asp-route-currentDev="@ViewData["CurrentDev"]"
+    class="btn @prevDisabled">
+Previous
+    </a>
+    <label>@ViewData["PageNumber"] / @ViewData["TotalPages"]</label>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.Games.PageIndex + 1)"
+       asp-route-currentName="@ViewData["CurrentName"]"
+       asp-route-currentPlatform="@ViewData["CurrentPlatform"]"
+       asp-route-currentPublisher="@ViewData["CurrentPublisher"]"
+       asp-route-currentDev="@ViewData["CurrentDev"]"   
+    class="btn @nextDisabled">
+Next
+    </a>
+    <form asp-action="Index" method="get">
+        <label>Jump Page:</label>
+        <input type="number" name="pageNumber" value="@ViewData["PageNumber"]" min="1" max="@ViewData["TotalPages"]" style="width:80px"/>
+        <input type="hidden" name="currentName" value="@ViewData["CurrentName"]"/>
+        <input type="hidden" name="currentPlatform" value="@ViewData["CurrentPlatform"]"/>
+        <input type="hidden" name="currentPublisher" value="@ViewData["CurrentPublisher"]"/>
+        <input type="hidden" name="currentDev" value="@ViewData["CurrentDev"]"/>
+        <input type="hidden" name="sortOrder" value="@ViewData["CurrentSort"]"/>
+        <input type="submit" value="Jump" class="btn-default"/>
+    </form>
+</div>
 
-<a asp-action="Index"
-   asp-route-sortOrder="@ViewData["CurrentSort"]"
-   asp-route-pageNumber="@(Model.Games.PageIndex - 1)"
-   asp-route-currentFilter="@ViewData["CurrentFilter"]"
-   class="btn @prevDisabled">
-    Previous
-</a>
-<a asp-action="Index"
-   asp-route-sortOrder="@ViewData["CurrentSort"]"
-   asp-route-pageNumber="@(Model.Games.PageIndex + 1)"
-   asp-route-currentFilter="@ViewData["CurrentFilter"]"
-   class="btn @nextDisabled">
-    Next
-</a>
+<div></div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

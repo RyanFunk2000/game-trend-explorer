@@ -118,6 +118,36 @@ header * {
   padding: 16px;
 }
 
+.tableNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.tableNav div {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.tableNav a {
+  margin: 3px;
+}
+
+.tableNav form {
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+.tableNav label {
+  border: none;
+  padding: 2px;
+}
+
 #chartDisplay {
   width: 100%;
 }
@@ -196,6 +226,10 @@ header * {
 @media only screen and (max-width: 768px) {
   .box {
     width: 90%;
+  }
+
+  #PageNav * {
+    order: 3;
   }
 
   .w3-bar {

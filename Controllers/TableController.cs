@@ -21,13 +21,15 @@ namespace game_trends_explorer.Controllers
 
         // GET: Table
         public async Task<IActionResult> Index(
-            string title,
             string sortOrder,
-            string currentFilter,
+            string currentName,
+            string currentPlatform,
+            string currentPublisher,
+            string currentDev,
+            string GameName,
             string gamePlatform,
             string gamePublisher,
-            string nameSearch,
-            string devSearch,
+            string DevName,
             int? pageNumber)
         {
             if (_context.Game == null)
@@ -54,29 +56,34 @@ namespace game_trends_explorer.Controllers
             ViewData["EuropeSortParm"] = sortOrder == "Europe" ? "eu_desc" : "Europe";
             ViewData["JapanSortParm"] = sortOrder == "Japan" ? "jp_desc" : "Japan";
 
-            if (nameSearch != null || devSearch != null)
+            if (GameName != null || DevName != null || gamePlatform != null || gamePublisher != null)
             {
                 pageNumber = 1;
             }
             else
             {
-                nameSearch = currentFilter;
-                devSearch = currentFilter;
+                GameName = currentName;
+                DevName = currentDev;
+                gamePlatform = currentPlatform;
+                gamePublisher = currentPublisher;
             }
 
-            ViewData["CurrentFilter"] = nameSearch;
+            ViewData["CurrentName"] = GameName;
+            ViewData["CurrentDev"] = DevName;
+            ViewData["CurrentPlatform"] = gamePlatform;
+            ViewData["CurrentPublisher"] = gamePublisher;
 
             var games = from g in _context.Game
                         select g;
 
-            if (!String.IsNullOrEmpty(nameSearch))
+            if (!String.IsNullOrEmpty(GameName))
             {
-                games = games.Where(g => g.name!.Contains(nameSearch));
+                games = games.Where(g => g.name!.Contains(GameName));
             }
 
-            if (!String.IsNullOrEmpty(devSearch))
+            if (!String.IsNullOrEmpty(DevName))
             {
-                games = games.Where(g => g.developer!.Contains(devSearch));
+                games = games.Where(g => g.developer!.Contains(DevName));
             }
 
             if (!string.IsNullOrEmpty(gamePlatform))
@@ -136,6 +143,10 @@ namespace game_trends_explorer.Controllers
             }
 
             int pageSize = 100;
+            int TotalPages = (int)Math.Ceiling((double)games.Count() / pageSize);
+            ViewData["PageNumber"] = pageNumber ?? 1;
+            ViewData["TotalPages"] = TotalPages;
+
             var gameVM = new TableViewModel
             {
                 Platforms = new SelectList(await platformQuery.Distinct().OrderBy(p => p).ToListAsync()),
