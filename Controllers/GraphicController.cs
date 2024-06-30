@@ -47,8 +47,8 @@ namespace game_trends_explorer.Controllers
             string yAxis,
             string yLabel,
             string colorPalette,
-            float minScale,
-            float maxScale,
+            float? minScale,
+            float? maxScale,
             string sortOrder,
             string chartCode
         )
@@ -117,18 +117,32 @@ namespace game_trends_explorer.Controllers
                     default:
                         break;
                 }
+
+                if (minScale == null)
+                {
+                    minScale = 0;
+                }
+
+                if (maxScale == null)
+                {
+                    maxScale = 9999;
+                }
                 
                 // Check if min and max scale values are valid.
                 if (minScale >= maxScale)
                 {
-                    minScale = 0;
-                    maxScale = 0;
+                    minScale = -1;
+                    maxScale = -1;
                 }
                 
                 // Filter the grouped data by the min and max scale values.
-                if (!(minScale == 0 && maxScale == 0))
+                if (!minScale.Equals(-1))
                 {
-                    groupedData = groupedData.Where(g => g.Sum >= minScale && g.Sum <= maxScale);
+                    groupedData = groupedData.Where(g => g.Sum >= minScale);
+                }
+                if (!maxScale.Equals(-1))
+                {
+                    groupedData = groupedData.Where(g => g.Sum <= maxScale);
                 }
 
                 // Give default values to the labels if they are not specified.
@@ -159,23 +173,23 @@ namespace game_trends_explorer.Controllers
                 // Generate the chart based on the specified chart type.
                 if (chartType == "Bar")
                 {
-                    chart = GenerateVerticalBarChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale, maxScale);
+                    chart = GenerateVerticalBarChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale ?? -1, maxScale ?? -1);
                 }
                 else if (chartType == "Area")
                 {
-                    chart = GenerateAreaChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale, maxScale);
+                    chart = GenerateAreaChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale ?? -1, maxScale ?? -1);
                 }
                 else if (chartType == "Line")
                 {
-                    chart = GenerateLineChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale, maxScale);
+                    chart = GenerateLineChart(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale ?? -1, maxScale ?? -1);
                 }
                 else if (chartType == "Scatter")
                 {
-                    chart = GenerateScatterPlot(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale, maxScale);
+                    chart = GenerateScatterPlot(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale ?? -1, maxScale ?? -1);
                 }
                 else if (chartType == "Bubble")
                 {
-                    chart = GenerateBubblePlot(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale, maxScale);
+                    chart = GenerateBubblePlot(title, xQueryList, yQueryList, paletteColors, xLabel, yLabel, minScale ?? -1, maxScale ?? -1);
                 }
                 else if (chartType == "Pie")
                 {
@@ -338,12 +352,15 @@ namespace game_trends_explorer.Controllers
                 }
             };
 
-            if (minScale != 0 && maxScale != 0)
+            if (minScale != -1)
             {
                 decimal min = (decimal)minScale;
-                decimal max = (decimal)maxScale;
                 chart.Options.Scales["y"].Min = (int)Math.Round(min);
-                chart.Options.Scales["y"].Max = (int)Math.Round(max);
+            }
+            if (maxScale != -1)
+            {
+                decimal max = (decimal)maxScale;
+                chart.Options.Scales["y"].Max = (int)Math.Round(maxScale);
             }
 
             return chart;
@@ -462,12 +479,15 @@ namespace game_trends_explorer.Controllers
                 }
             };
 
-            if (minScale != 0 && maxScale != 0)
+            if (minScale != -1)
             {
                 decimal min = (decimal)minScale;
-                decimal max = (decimal)maxScale;
                 chart.Options.Scales["y"].Min = (int)Math.Round(min);
-                chart.Options.Scales["y"].Max = (int)Math.Round(max);
+            }
+            if (maxScale != -1)
+            {
+                decimal max = (decimal)maxScale;
+                chart.Options.Scales["y"].Max = (int)Math.Round(maxScale);
             }
 
             return chart;
@@ -582,12 +602,15 @@ namespace game_trends_explorer.Controllers
                 }
             };
 
-            if (minScale != 0 && maxScale != 0)
+            if (minScale != -1)
             {
                 decimal min = (decimal)minScale;
-                decimal max = (decimal)maxScale;
                 chart.Options.Scales["y"].Min = (int)Math.Round(min);
-                chart.Options.Scales["y"].Max = (int)Math.Round(max);
+            }
+            if (maxScale != -1)
+            {
+                decimal max = (decimal)maxScale;
+                chart.Options.Scales["y"].Max = (int)Math.Round(maxScale);
             }
 
             return chart;
@@ -696,12 +719,15 @@ namespace game_trends_explorer.Controllers
                 }
             };
 
-            if (minScale != 0 && maxScale != 0)
+            if (minScale != -1)
             {
                 decimal min = (decimal)minScale;
-                decimal max = (decimal)maxScale;
                 chart.Options.Scales["y"].Min = (int)Math.Round(min);
-                chart.Options.Scales["y"].Max = (int)Math.Round(max);
+            }
+            if (maxScale != -1)
+            {
+                decimal max = (decimal)maxScale;
+                chart.Options.Scales["y"].Max = (int)Math.Round(maxScale);
             }
 
             return chart;
@@ -835,12 +861,15 @@ namespace game_trends_explorer.Controllers
                 }
             };
 
-            if (minScale != 0 && maxScale != 0)
+            if (minScale != -1)
             {
                 decimal min = (decimal)minScale;
-                decimal max = (decimal)maxScale;
                 chart.Options.Scales["y"].Min = (int)Math.Round(min);
-                chart.Options.Scales["y"].Max = (int)Math.Round(max);
+            }
+            if (maxScale != -1)
+            {
+                decimal max = (decimal)maxScale;
+                chart.Options.Scales["y"].Max = (int)Math.Round(maxScale);
             }
 
             return chart;
