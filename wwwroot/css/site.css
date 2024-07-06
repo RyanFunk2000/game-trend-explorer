@@ -118,7 +118,7 @@ header * {
   padding: 16px;
 }
 
-.tableNav {
+.menuNav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -126,7 +126,7 @@ header * {
   padding: 5px;
 }
 
-.tableNav div {
+.menuNav div {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   border-radius: 5px;
@@ -134,16 +134,16 @@ header * {
   margin: 2px;
 }
 
-.tableNav a {
+.menuNav a {
   margin: 3px;
 }
 
-.tableNav form {
+.menuNav form {
   padding: 2px;
   border: 1px solid #ccc;
 }
 
-.tableNav label {
+.menuNav label {
   border: none;
   padding: 2px;
 }
@@ -169,10 +169,7 @@ header * {
   padding: 8px 16px;
   float: left;
   width: auto;
-  border: 1px solid #ccc;
-    border-bottom-width: medium;
-    border-bottom-style: none;
-    border-bottom-color: currentcolor;
+  border: none;
   display: block;
 }
 
@@ -186,8 +183,7 @@ header * {
 
 .tab {
   color: #000 !important;
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border: none;
   background-color: #f1f1f1 !important;
   justify-content: center;
 }
@@ -237,11 +233,6 @@ header * {
   }
 
   .tablink {
-    border: none;
     margin: 3px 3px;
-  }
-
-  .tab {
-    border: 1px solid #ccc;
   }
 }

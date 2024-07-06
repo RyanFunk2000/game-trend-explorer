@@ -11,7 +11,7 @@
 </p>
 
 <form asp-action="Index" method="get">
-    <div class="form-actions no-color tableNav">
+    <div class="form-actions no-color menuNav">
         <div>
             <label>Name:</label>
             <input type="text" asp-for="GameName" value="@ViewData["CurrentName"]"/>
@@ -33,7 +33,7 @@
             <input type="text" asp-for="DevName" value="@ViewData["CurrentDev"]"/>
         </div>
     </div>
-    <div class="tableNav">
+    <div class="menuNav">
         <input type="submit" value="Filter" class="btn-default" />
         <a asp-action="Index">Back to Full List</a>
     </div>
@@ -172,7 +172,7 @@
     var prevDisabled = !Model.Games.HasPreviousPage ? "disabled" : "";
     var nextDisabled = !Model.Games.HasNextPage ? "disabled" : "";
 }
-<div class="tableNav">
+<div class="menuNav">
     <a asp-action="Index"
        asp-route-sortOrder="@ViewData["CurrentSort"]"
        asp-route-pageNumber="@(Model.Games.PageIndex - 1)"

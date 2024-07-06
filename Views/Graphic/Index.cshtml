@@ -5,7 +5,7 @@
 @{
     ViewData["Title"] = "Graphic View";
 
-    Chart chart = (Chart)ViewData["chart"];
+    Chart? chart = (Chart?)ViewData["chart"];
 }
 
 @section Head {
@@ -24,6 +24,7 @@
     </div>
 </div>
 
+<p>Choose the type of chart to generate.</p>
 
 <div class="w3-bar">
     <button class="tablink" onclick="openTab(event, 'Bar')">Bar</button>
@@ -38,35 +39,58 @@
 </div>
 
 <form id="Bar" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Bar</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        X-Axis: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-        Label: <input type="text" placeholder="Input" asp-for="xLabel"/>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Y-Axis: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{X-Axis}: {Y-Axis}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">X-Axis:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
-            Label: <input type="text" placeholder="Input" asp-for="yLabel"/>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Scale: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
+        <section>
+            <label title="Specify a moniker for the X-Axis. If left empty, the chart will default to the name of the X-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="xLabel" style="width:150px"/>
+        </section>
     </div>
-    <div>
-        Bar Colors: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Y-Axis:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify a moniker for the Y-Axis. If left empty, the chart will default to the name of the Y-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="yLabel" style="width:150px"/>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Scale:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, all six colors in the palette are used. If left empty, the Default palette will be chosen.">Bar Colors:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
 
     <section>
@@ -75,35 +99,58 @@
 </form>
 
 <form id="Area" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Area</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        X-Axis: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-        Label: <input type="text" placeholder="Input" asp-for="xLabel"/>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Y-Axis: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{X-Axis}: {Y-Axis}'." >Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">X-Axis:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
-            Label: <input type="text" placeholder="Input" asp-for="yLabel"/>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Scale: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
+        <section>
+            <label title="Specify a moniker for the X-Axis. If left empty, the chart will default to the name of the X-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="xLabel" style="width:150px"/>
+        </section>
     </div>
-    <div>
-        Area Color: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Y-Axis:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify a moniker for the Y-Axis. If left empty, the chart will default to the name of the Y-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="yLabel" style="width:150px"/>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Scale:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, only the first of the six colors in the palette is used. If left empty, the Default palette will be chosen.">Area Color:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
 
     <section>
@@ -112,35 +159,58 @@
 </form>
 
 <form id="Line" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Line</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        X-Axis: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-        Label: <input type="text" placeholder="Input" asp-for="xLabel"/>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Y-Axis: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{X-Axis}: {Y-Axis}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">X-Axis:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
-            Label: <input type="text" placeholder="Input" asp-for="yLabel"/>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Scale: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
+        <section>
+            <label title="Specify a moniker for the X-Axis. If left empty, the chart will default to the name of the X-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="xLabel" style="width:150px"/>
+        </section>
     </div>
-    <div>
-        Line Color: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Y-Axis:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify a moniker for the Y-Axis. If left empty, the chart will default to the name of the Y-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="yLabel" style="width:150px"/>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Scale:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, only the first of the six colors in the palette is used. If left empty, the Default palette will be chosen.">Line Color:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
 
     <section>
@@ -149,35 +219,58 @@
 </form>
 
 <form id="Scatter" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Scatter</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        X-Axis: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-        Label: <input type="text" placeholder="Input" asp-for="xLabel"/>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Y-Axis: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{X-Axis}: {Y-Axis}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">X-Axis:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
-            Label: <input type="text" placeholder="Input" asp-for="yLabel"/>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Scale: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
+        <section>
+            <label title="Specify a moniker for the X-Axis. If left empty, the chart will default to the name of the X-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="xLabel" style="width:150px"/>
+        </section>
     </div>
-    <div>
-        Point Colors: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Y-Axis:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify a moniker for the Y-Axis. If left empty, the chart will default to the name of the Y-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="yLabel" style="width:150px"/>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Scale:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, all six colors in the palette are used. If left empty, the Default palette will be chosen.">Point Colors:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
     
     <section>
@@ -186,35 +279,58 @@
 </form>
 
 <form id="Bubble" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Bubble</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        X-Axis: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-        Label: <input type="text" placeholder="Input" asp-for="xLabel"/>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Y-Axis: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{X-Axis}: {Y-Axis}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">X-Axis:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
-            Label: <input type="text" placeholder="Input" asp-for="yLabel"/>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Scale: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
+        <section>
+            <label title="Specify a moniker for the X-Axis. If left empty, the chart will default to the name of the X-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="xLabel" style="width:150px"/>
+        </section>
     </div>
-    <div>
-        Bubble Colors: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Y-Axis:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify a moniker for the Y-Axis. If left empty, the chart will default to the name of the Y-Axis chosen.">Label:</label>
+            <input type="text" placeholder="Input" asp-for="yLabel" style="width:150px"/>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Scale:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, all six colors in the palette are used. If left empty, the Default palette will be chosen.">Bubble Colors:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
     
     <section>
@@ -223,33 +339,50 @@
 </form>
 
 <form id="Pie" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Pie</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        Category: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Stats: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{Category}: {Stats}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">Category:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Range: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
     </div>
-    <div>
-        Section Colors: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Stats:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Range:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, all six colors in the palette are used. If left empty, the Default palette will be chosen.">Section Colors:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
     
     <section>
@@ -258,33 +391,50 @@
 </form>
 
 <form id="Doughnut" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Doughnut</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        Category: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Stats: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{Category}: {Stats}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">Category:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Range: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
     </div>
-    <div>
-        Section Colors: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Stats:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Range:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, all six colors in the palette are used. If left empty, the Default palette will be chosen.">Section Colors:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
     
     <section>
@@ -293,33 +443,50 @@
 </form>
 
 <form id="Radar" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+    <p>Hover over a field's label to learn more about the purpose of each one. Red ones are required to generate a graphic.</p>
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Radar</option>
     </select>
-    <div>
-        Graphic Title: <input type="text" placeholder="Input" asp-for="Title"/>
-    </div>
-    <div>
-        Category: <select asp-for="xAxis" asp-items="Model.xAxes">
-            <option value=""></option>
-        </select>
-    </div>
-    <div>
+    <div class="menuNav">
         <section>
-            Stats: <select asp-for="yAxis" asp-items="Model.yAxes">
+            <label title="Specify a name for the graphic. If left empty, the chart will apply a default title formatted as '{Category}: {Stats}'.">Title:</label>
+            <input type="text" placeholder="Input" asp-for="Title"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which class to group the data (this field is REQUIRED)." style="color:red">Category:</label>
+            <select asp-for="xAxis" asp-items="Model.xAxes">
                 <option value=""></option>
             </select>
         </section>
-        Sort: <select asp-for="sortOrder" asp-items="Model.sorts">
-            <option value="None"></option>
-        </select>
-        Range: <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999"/> - 
-            <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999"/>
     </div>
-    <div>
-        Fill Color: <select asp-for="colorPalette" asp-items="Model.colorPalettes">
-            <option value="Default"></option>
-        </select>
+    <div class="menuNav">
+        <section>
+            <label title="Choose which type of sales data to use (this field is REQUIRED)." style="color:red">Stats:</label>
+            <select asp-for="yAxis" asp-items="Model.yAxes">
+                <option value=""></option>
+            </select>
+        </section>
+        <section>
+            <label title="Choose to order the data by either least to greatest or vice versa. If left empty, the data will be listed in a random order.">Sort:</label>
+            <select asp-for="sortOrder" asp-items="Model.sorts">
+                <option value="None"></option>
+            </select>
+        </section>
+        <section>
+            <label title="Specify the minimum and/or maximum value the chart will include. Default min and max is zero and infinite repectively, so if both are left empty, the chart will include all items. It's recommended to apply a range for categories of high granularity (Name, Publisher, Developer).">Range:</label>
+            <input type="number" placeholder="Min" asp-for="minScale" min="0" max ="9999" style="width:70px"/> - 
+                <input type="number" placeholder="Max" asp-for="maxScale" min="1" max="9999" style="width:70px"/>
+        </section>
+    </div>
+    <div class="menuNav">
+        <section>
+            <label title="Assign the chart a variety of provided color palettes. For this type, only the first of the six colors in the palette is used. If left empty, the Default palette will be chosen.">Fill Color:</label>
+            <select asp-for="colorPalette" asp-items="Model.colorPalettes">
+                <option value="Default"></option>
+            </select>
+        </section>
     </div>
     
     <section>
@@ -327,7 +494,7 @@
     </section>
 </form>
 
-<form id="Advanced" class="w3-container tab" asp-action="Index" method="get" style="display:none">
+@* <form id="Advanced" class="w3-container tab" asp-action="Index" method="get" style="display:none">
     <select class="chartType" asp-for="chartType">
         <option selected="selected">Advanced</option>
     </select>
@@ -363,7 +530,7 @@
     <section>
         <input type="submit" value="Generate" class="btn-default" />
     </section>
-</form>
+</form> *@
 
 @section Scripts {
     @if (chart != null) {
@@ -386,13 +553,11 @@
             tablinks = document.getElementsByClassName("tablink");
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" w3-light-grey", "");
-                tablinks[i].style.borderBottom = "1px solid #ccc !important";
             }
 
             document.getElementById(tabName).style.display = "block";
 
             evt.currentTarget.classList.add("w3-light-grey");
-            evt.currentTarget.style.borderBottom = "none";
 
             var inputs = document.getElementsByTagName("input");
             for (var i = 0; i < inputs.length - 1; i++) {

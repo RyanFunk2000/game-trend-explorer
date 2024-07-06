@@ -39,7 +39,7 @@ namespace game_trends_explorer.Controllers
         }
 
         // GET: Graphic
-        public async Task<IActionResult> Index(
+        public IActionResult Index(
             string chartType,
             string title,
             string xAxis,
@@ -59,7 +59,7 @@ namespace game_trends_explorer.Controllers
             {
                 xQuery = GetStringQuery(GetQuery(xAxis.ToLower()));
             }
-            
+
 
             // Get list from specified y-axis.
             List<double?>? yQuery = null;
@@ -99,12 +99,12 @@ namespace game_trends_explorer.Controllers
                 // Group the data by the X query and sum the Y query to get the combined numbers for each unique X value.
                 IEnumerable<dynamic> groupedData = queryDataList
                     .GroupBy(q => q.xQuery)
-                    .Select(g => new 
-                    { 
-                        xQuery = g.Key, 
-                        Sum = g.Sum(item => item.yQuery) 
+                    .Select(g => new
+                    {
+                        xQuery = g.Key,
+                        Sum = g.Sum(item => item.yQuery)
                     });
-                
+
                 // Sort the grouped data as specified.
                 switch (sortOrder)
                 {
@@ -127,14 +127,14 @@ namespace game_trends_explorer.Controllers
                 {
                     maxScale = 9999;
                 }
-                
+
                 // Check if min and max scale values are valid.
                 if (minScale >= maxScale)
                 {
                     minScale = -1;
                     maxScale = -1;
                 }
-                
+
                 // Filter the grouped data by the min and max scale values.
                 if (!minScale.Equals(-1))
                 {
@@ -162,7 +162,7 @@ namespace game_trends_explorer.Controllers
                 {
                     string xQueryValue = data.xQuery;
                     double? sumValue = data.Sum;
-                    
+
                     if (xQueryValue != "All" && xQueryValue != "Series" && sumValue != 0)
                     {
                         xQueryList.Add(xQueryValue);
@@ -203,10 +203,10 @@ namespace game_trends_explorer.Controllers
                 {
                     chart = GenerateRadarChart(title, xQueryList, yQueryList, paletteColors);
                 }
-                else if (chartType == "Advanced")
-                {
-                    chart = GenerateCustomChart(chartCode, xQueryList, yQueryList, paletteColors);
-                }
+                // else if (chartType == "Advanced")
+                // {
+                //     chart = GenerateCustomChart(chartCode, xQueryList, yQueryList, paletteColors);
+                // }
             }
 
             // Create a new GraphicViewModel object and populate it with the necessary data.
@@ -216,7 +216,7 @@ namespace game_trends_explorer.Controllers
                 xAxes = new SelectList(new List<string> { "Name", "Platform", "Publisher", "Developer" }),
                 yAxes = new SelectList(new List<string> { "Shipped", "Total", "America", "Europe", "Japan" }),
                 colorPalettes = new SelectList(paletteNames),
-                sorts = new SelectList(new List<string> { "None", "Ascending", "Descending" }),
+                sorts = new SelectList(new List<string> { "Ascending", "Descending" }),
                 //Games = _context.Game.FirstOrDefault(),
             };
 
@@ -752,7 +752,7 @@ namespace game_trends_explorer.Controllers
             List<int> hitRadii = new List<int>();
             for (int i = 0; i < yQueryData.Count; i++)
             {
-                int radius = (int)Math.Round((decimal)yQueryData[i] / 50);
+                int radius = (int)Math.Round((decimal)(yQueryData[i] ?? 0) / 50);
                 if (radius < 2)
                 {
                     radius = 2;
@@ -997,46 +997,46 @@ namespace game_trends_explorer.Controllers
             return chart;
         }
 
-        private static Chart? GenerateCustomChart(
-            string chartCode,
-            List<string> xQueryData,
-            List<double?> yQueryData,
-            List<string> paletteColors
-        )
-        {
-            Chart chart = new Chart();
+        // private static Chart? GenerateCustomChart(
+        //     string chartCode,
+        //     List<string> xQueryData,
+        //     List<double?> yQueryData,
+        //     List<string> paletteColors
+        // )
+        // {
+        //     Chart chart = new Chart();
 
-            try
-            {
-                chart = JsonConvert.DeserializeObject<Chart>(chartCode);
-            }
-            catch (Exception)
-            {
-                return null;
-            }
+        //     try
+        //     {
+        //         chart = JsonConvert.DeserializeObject<Chart>(chartCode);
+        //     }
+        //     catch (Exception)
+        //     {
+        //         return null;
+        //     }
 
-            chart.Data.Labels = xQueryData;  
+        //     chart.Data.Labels = xQueryData;  
             
-            chart.Data.Datasets[0].Data = yQueryData;
+        //     chart.Data.Datasets[0].Data = yQueryData;
 
-            List<ChartColor> borderColor = new List<ChartColor>();
-            List<ChartColor> backgorundColor = new List<ChartColor>();
-            if (paletteColors.Count == 0)
-            {
-                for (int i = 0; i < 1; i++)
-                {
-                    borderColor.Add(ChartColor.FromHexString(paletteColors[i]));
+        //     List<ChartColor> borderColor = new List<ChartColor>();
+        //     List<ChartColor> backgorundColor = new List<ChartColor>();
+        //     if (paletteColors.Count == 0)
+        //     {
+        //         for (int i = 0; i < 1; i++)
+        //         {
+        //             borderColor.Add(ChartColor.FromHexString(paletteColors[i]));
 
-                    backgorundColor.Add(ChartColor.FromHexString(paletteColors[i]));
-                    backgorundColor[i].Alpha = 0.5;
-                }
+        //             backgorundColor.Add(ChartColor.FromHexString(paletteColors[i]));
+        //             backgorundColor[i].Alpha = 0.5;
+        //         }
 
-            chart.Data.Datasets[0].BackgroundColor = backgorundColor;
-            chart.Data.Datasets[0].BorderColor = borderColor;
-            }
+        //     chart.Data.Datasets[0].BackgroundColor = backgorundColor;
+        //     chart.Data.Datasets[0].BorderColor = borderColor;
+        //     }
 
-            return chart;
-        }
+        //     return chart;
+        // }
 
         private static Dictionary<string, List<string>> GetColorPalettes()
         {
