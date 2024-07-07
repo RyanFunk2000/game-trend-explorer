@@ -13,13 +13,12 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">GAME TREND EXPLORER</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="site-logo">
-                    <img src='@Url.Content("~/images/logo.png")' alt="Table logo">
+                <a class="navbar-brand text-light logo-text" asp-area="" asp-controller="Home" asp-action="Index"><img src='@Url.Content("~/images/logo-text.png")' alt="GAME TREND EXPLORER"></a>
+                <div class="logo-line">
+                    <img src='@Url.Content("~/images/logo-line.png")'>
+                </div>
+                <div class="logo-icon">
+                    <img src='@Url.Content("~/images/logo-icon.png")' alt="Site logo">
                 </div>
             </div>
         </nav>
@@ -49,7 +48,9 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Game Trend Explorer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - Game Trend Explorer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> | 
+            <a asp-area="" asp-controller="Home" asp-action="Credits">Credits</a> | 
+            <a href="https://github.com/RyanFunk2000/game-trends-explorer">GitHub</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

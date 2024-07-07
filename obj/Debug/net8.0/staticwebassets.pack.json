@@ -13,16 +13,60 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\acore.png",
+      "PackagePath": "staticwebassets\\images\\acore.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\azure.png",
+      "PackagePath": "staticwebassets\\images\\azure.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\cs.png",
+      "PackagePath": "staticwebassets\\images\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\gcloud.png",
+      "PackagePath": "staticwebassets\\images\\gcloud.png"
+    },
+    {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\graph.png",
       "PackagePath": "staticwebassets\\images\\graph.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-line.png",
+      "PackagePath": "staticwebassets\\images\\logo-line.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\images\\logo-text.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\microsoft.png",
+      "PackagePath": "staticwebassets\\images\\microsoft.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\sqls.png",
+      "PackagePath": "staticwebassets\\images\\sqls.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\ssms.png",
+      "PackagePath": "staticwebassets\\images\\ssms.png"
     },
     {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\table.png",
       "PackagePath": "staticwebassets\\images\\table.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\vscode.png",
+      "PackagePath": "staticwebassets\\images\\vscode.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\w3.png",
+      "PackagePath": "staticwebassets\\images\\w3.png"
     },
     {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\js\\site.js",

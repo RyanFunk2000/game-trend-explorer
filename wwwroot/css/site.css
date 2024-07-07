@@ -23,18 +23,48 @@ body {
   margin-bottom: 60px;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 header * {
-  background-color: #9747FF;
   font-weight: bold;
 }
 
-.site-logo {
+.navbar {
+  background: linear-gradient(90deg, #9747FF 50%, #C458B2);
+}
+
+.logo-text {
+  width: 50%;
+  height: auto;
+}
+
+.logo-text img {
+  width: auto;
+  max-width: 100%;
+  height: 30px;
+}
+
+.logo-line {
+  width: 50%;
+  height: auto;
+}
+
+.logo-line img {
+  width: 100%;
+  height: 35px;
+}
+
+.logo-icon {
   float: right;
 }
 
-.site-logo img {
-  width: 30px;
-  height: 30px;
+.logo-icon img {
+  width: auto;
+  height: 40px;
 }
 
 .box {
@@ -220,6 +250,19 @@ header * {
 
 /*Mobile styles*/
 @media only screen and (max-width: 768px) {
+  .logo-text {
+    width: 75%;
+    height: auto;
+  }
+
+  .logo-text img {
+    height: 20px;
+  }
+
+  .logo-line {
+    display: none;
+  }
+
   .box {
     width: 90%;
   }
