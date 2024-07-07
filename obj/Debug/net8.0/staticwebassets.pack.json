@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets\\game-trends-explorer.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\android-chrome-256x256.png",
+      "PackagePath": "staticwebassets\\android-chrome-256x256.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\browserconfig.xml"
+    },
+    {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
     },
     {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\favicon.ico",
@@ -299,6 +323,22 @@
     {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\logo-icon.ico",
+      "PackagePath": "staticwebassets\\logo-icon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\site.webmanifest",
+      "PackagePath": "staticwebassets\\site.webmanifest"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.game-trends-explorer.props",
