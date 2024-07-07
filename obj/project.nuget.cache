@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GzJof7/zByn6jbJSAOmheJzB5ETpn1NGm2k3V+SadX/PxVf/LtE5iFpmSWX9lhM8/uOHL2voOKGdhz4EHsGW1Q==",
+  "dgSpecHash": "4NgPnNHseNw3Hoyp8ImGD1j++/lqTVEkxZxVta6zSOaGdQWlkC0dRyqfZ5d3D0frHL3aPjxSlOCfGuimUNFl2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\game-trends-explorer.csproj",
+  "projectFilePath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\game-trends-explorer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

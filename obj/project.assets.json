@@ -8791,11 +8791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\game-trends-explorer.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\game-trends-explorer.csproj",
       "projectName": "game-trends-explorer",
-      "projectPath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\game-trends-explorer.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\game-trends-explorer.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ryan\\AppData\\Roaming\\NuGet\\NuGet.Config"

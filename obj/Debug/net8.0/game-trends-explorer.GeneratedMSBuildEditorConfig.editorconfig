@@ -17,55 +17,55 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = game_trends_explorer
 build_property.RootNamespace = game_trends_explorer
-build_property.ProjectDir = C:\Users\Ryan\Documents\GITHUB\game-trends-explorer\
+build_property.ProjectDir = C:\Users\Ryan\Documents\GITHUB\game-trend-explorer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ryan\Documents\GITHUB\game-trends-explorer
+build_property.MSBuildProjectDirectory = C:\Users\Ryan\Documents\GITHUB\game-trend-explorer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Graphic/Index.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Graphic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhcGhpY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Home/Credits.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Home/Credits.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Home/Index.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Home/Privacy.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Shared/Error.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Table/Details.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Table/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Table/Index.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Table/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/_ViewImports.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/_ViewStart.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ryan/Documents/GITHUB/game-trends-explorer/Views/Shared/_Layout.cshtml]
+[C:/Users/Ryan/Documents/GITHUB/game-trend-explorer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hy1rfj85nm

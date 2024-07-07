@@ -39,7 +39,7 @@ namespace game_trends_explorer.Controllers
         }
 
         // GET: Graphic
-        public IActionResult Index(
+        public async Task<IActionResult> Index(
             string chartType,
             string title,
             string xAxis,

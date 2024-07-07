@@ -1,303 +1,303 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css",
       "PackagePath": "staticwebassets\\game-trends-explorer.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\acore.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\acore.png",
       "PackagePath": "staticwebassets\\images\\acore.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\azure.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\azure.png",
       "PackagePath": "staticwebassets\\images\\azure.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\cs.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cs.png",
       "PackagePath": "staticwebassets\\images\\cs.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\gcloud.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\gcloud.png",
       "PackagePath": "staticwebassets\\images\\gcloud.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\graph.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\graph.png",
       "PackagePath": "staticwebassets\\images\\graph.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-icon.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-icon.png",
       "PackagePath": "staticwebassets\\images\\logo-icon.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-line.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-line.png",
       "PackagePath": "staticwebassets\\images\\logo-line.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-text.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-text.png",
       "PackagePath": "staticwebassets\\images\\logo-text.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\microsoft.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\microsoft.png",
       "PackagePath": "staticwebassets\\images\\microsoft.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\sqls.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\sqls.png",
       "PackagePath": "staticwebassets\\images\\sqls.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\ssms.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\ssms.png",
       "PackagePath": "staticwebassets\\images\\ssms.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\table.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\table.png",
       "PackagePath": "staticwebassets\\images\\table.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\vscode.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\vscode.png",
       "PackagePath": "staticwebassets\\images\\vscode.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\w3.png",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\w3.png",
       "PackagePath": "staticwebassets\\images\\w3.png"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

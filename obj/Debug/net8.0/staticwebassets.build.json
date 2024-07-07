@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gvMDlsgE7Q9Q71+o9Os0i3mHioSor/jbls3bTadoTwo=",
+  "Hash": "wqeDUED+ZaM0PkLZikwZYVlq8GsYkjkYNQJN0ERBYvI=",
   "Source": "game-trends-explorer",
   "BasePath": "_content/game-trends-explorer",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "game-trends-explorer\\wwwroot",
       "Source": "game-trends-explorer",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "Pattern": "**"
     }
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "C:\\Users\\Ryan\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\game-trends-explorer.styles.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\game-trends-explorer.styles.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "game-trends-explorer.styles.css",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\game-trends-explorer.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\game-trends-explorer.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "game-trends-explorer.bundle.scp.css",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\game-trends-explorer.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\css\\site.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\favicon.ico",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\acore.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\acore.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/acore.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\acore.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\azure.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\azure.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/azure.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\azure.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\cs.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cs.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/cs.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cs.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\gcloud.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\gcloud.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/gcloud.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gcloud.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\graph.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\graph.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/graph.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\graph.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-icon.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-icon.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/logo-icon.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-line.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-line.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/logo-line.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-line.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\logo-text.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\logo-text.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/logo-text.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-text.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\microsoft.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\microsoft.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/microsoft.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\microsoft.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\sqls.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\sqls.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/sqls.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sqls.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\ssms.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\ssms.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/ssms.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ssms.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\table.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\table.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/table.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\table.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\vscode.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\vscode.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/vscode.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vscode.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\images\\w3.png",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\w3.png",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "images/w3.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\w3.png"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\js\\site.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "game-trends-explorer",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trends-explorer\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
       "BasePath": "_content/game-trends-explorer",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
