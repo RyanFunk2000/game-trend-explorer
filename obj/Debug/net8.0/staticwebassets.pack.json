@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\azure.png"
     },
     {
+      "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cjs.png",
+      "PackagePath": "staticwebassets\\images\\cjs.png"
+    },
+    {
       "Id": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cs.png",
       "PackagePath": "staticwebassets\\images\\cs.png"
     },

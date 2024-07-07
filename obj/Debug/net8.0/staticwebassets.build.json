@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U2ntRkbsistwWgCumOEq+HPOKnRjQjyLcZoMokriFSo=",
+  "Hash": "Tiupd/HmS7/eH1SUn3OxaAz9d60ciPYuc+s89tS1wQM=",
   "Source": "game-trends-explorer",
   "BasePath": "_content/game-trends-explorer",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\azure.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cjs.png",
+      "SourceId": "game-trends-explorer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\",
+      "BasePath": "_content/game-trends-explorer",
+      "RelativePath": "images/cjs.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cjs.png"
     },
     {
       "Identity": "C:\\Users\\Ryan\\Documents\\GITHUB\\game-trend-explorer\\wwwroot\\images\\cs.png",
