@@ -108,20 +108,12 @@ header * {
   filter: none;
 }
 
+.navoption {
+  z-index: 0;
+}
+
 .navoption:hover {
   background-color: rgba(151, 71, 255, 0.4);
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.sidebar .closebtn:hover {
-  color: #9747FF;
 }
 
 .icon {
@@ -140,6 +132,22 @@ header * {
 }
 
 .openbtn:hover {
+  background-color: rgba(151, 71, 255, 0.4);
+}
+
+.closebtn {
+  position: relative;
+  z-index: 1;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+}
+
+.closebtn:hover {
   background-color: rgba(151, 71, 255, 0.4);
 }
 

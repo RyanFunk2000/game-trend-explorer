@@ -48,6 +48,8 @@ Tester #4: Joseph Fullmer
 
 VGChartz Dataset: [Simon Garanin](https://www.kaggle.com/datasets/gsimonx37/vgchartz)
 
+ChartJSCore: [mattosaurus](https://github.com/mattosaurus/ChartJSCore)
+
 Credits Template: [Daniel Malkafly](https://github.com/malkafly/endcredits)
 
 Privacy Policy: [TermsFeed](https://www.termsfeed.com/privacy-policy-generator)
