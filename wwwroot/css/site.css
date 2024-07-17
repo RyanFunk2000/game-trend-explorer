@@ -68,6 +68,7 @@ header * {
 }
 
 .box {
+  text-decoration: none;
   color: black;
   display: inline-block;
   width: 45%;
@@ -77,6 +78,21 @@ header * {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box h3 {
+  color: #9747FF;
+
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+}
+
+.box a  {
+  color: inherit;
+  outline: 0;
 }
 
 .sidebar {
