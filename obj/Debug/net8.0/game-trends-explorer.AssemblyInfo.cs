@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d3288e9bee0e72042e63a7e4b2a75cb648ada36")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7042687f37fccc7d72b179125ade7ef56c73549")]
+>>>>>>> parent of 6d3288e (fix home page styling)
 [assembly: System.Reflection.AssemblyProductAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
