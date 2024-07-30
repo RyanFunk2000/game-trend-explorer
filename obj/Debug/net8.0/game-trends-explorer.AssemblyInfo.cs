@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f56a8fa6da94b701157658b846e193c97d7cdbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d559cfc2e3cf36fe3312958f966833f40ff8838f")]
 [assembly: System.Reflection.AssemblyProductAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("game-trends-explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

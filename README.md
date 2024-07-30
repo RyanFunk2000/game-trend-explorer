@@ -66,7 +66,7 @@ Rob Tuft, Roger deBry, Simon Hillman, Grant Marzoni, Brendon Bainbridge
 <a href="https://www.chartjs.org"><img src="./wwwroot/images/cjs.png" alt="Chart.JS" style="width:150px"></a>
 <a href="https://www.w3schools.com/css/default.asp"><img src="./wwwroot/images/w3.png" alt="W3Schools" style="width:150px"></a>
 <a href="https://azure.microsoft.com"><img src="./wwwroot/images/azure.png" alt="Azure" style="width:150px"></a>
-<a href="https://cloud.google.com"><img src="./wwwroot/images/gcloud.png" alt="Google Cloud" style="width:150px"></a>
+<a href="https://www.digitalocean.com/"><img src="./wwwroot/images/do.png" alt="Digital Ocean" style="width:150px"></a>
 <a href="https://www.microsoft.com/en-us/sql-server"><img src="./wwwroot/images/sqls.png" alt="SQL Server" style="width:150px"></a>
 <a href="https://code.visualstudio.com"><img src="./wwwroot/images/vscode.png" alt="Virtual Studio Code" style="width:150px"></a>
 <a href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"><img src="./wwwroot/images/ssms.png" alt="SQL Server Management Studio" style="width:150px"></a>
